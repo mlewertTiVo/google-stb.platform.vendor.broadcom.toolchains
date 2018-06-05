@@ -1,0 +1,7 @@
+/* Generated automatically. */
+static const char configuration_arguments[] = "/home/vagrant/.build/src/gcc-6.3.0/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-unknown-linux-gnueabihf --prefix=/home/vagrant/tc_build/stbgcc-6.3-1.3 --with-sysroot=/home/vagrant/tc_build/stbgcc-6.3-1.3/arm-unknown-linux-gnueabihf/sys-root --enable-languages=c,c++ --with-arch=armv7-a --with-fpu=vfpv3-d16 --with-float=hard --with-pkgversion='crosstool-NG ' --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --disable-libmpx --with-gmp=/home/vagrant/.build/arm-unknown-linux-gnueabihf/buildtools --with-mpfr=/home/vagrant/.build/arm-unknown-linux-gnueabihf/buildtools --with-mpc=/home/vagrant/.build/arm-unknown-linux-gnueabihf/buildtools --with-isl=/home/vagrant/.build/arm-unknown-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/vagrant/tc_build/stbgcc-6.3-1.3/arm-unknown-linux-gnueabihf/sys-root --enable-long-long --with-mode=thumb";
+static const char thread_model[] = "posix";
+
+static const struct {
+  const char *name, *value;
+} configure_default_options[] = { { "arch", "armv7-a" }, { "float", "hard" }, { "mode", "thumb" }, { "fpu", "vfpv3-d16" }, { "tls", "gnu" } };
